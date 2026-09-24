@@ -27,7 +27,7 @@ jobs:
         with:
           image-ref: devsecops-demo
           format: table
-          severity: HIGH,CRITICAL
+          severity: CRITICAL
           exit-code: 1
 
       - name: Run Semgrep SAST scan

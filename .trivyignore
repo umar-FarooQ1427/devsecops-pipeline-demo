@@ -1,8 +1,0 @@
-# util-linux CVEs — mount/cgroup edge cases requiring privileged operations
-# our container runs as a standard unprivileged process with no host mount access,
-# so these are not exploitable in this deployment context. Documented 2026-09-24.
-CVE-2026-76642
-CVE-2026-78408
-CVE-2026-78409
-CVE-2026-78410
-CVE-2026-54369
